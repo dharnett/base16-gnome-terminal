@@ -12,7 +12,7 @@ to use when launching a new terminal. Then clone the repo and execute the
 scheme file of your choosing:
 
 ```
-git clone https://github.com/chriskempson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal
+git clone https://github.com/aaron-williamson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal
 .config/base16-gnome-terminal/color-scripts/base16-default-dark.sh
 ```
 

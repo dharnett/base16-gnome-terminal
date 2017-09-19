@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Solarized Dark - Gnome Terminal color scheme install script
 # Ethan Schoonover (http://ethanschoonover.com/solarized)
 

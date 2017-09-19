@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Google Dark - Gnome Terminal color scheme install script
 # Seth Wright (http://sethawright.com)
 
@@ -62,7 +63,7 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#1d1f21', '#CC342B', '#198844', '#FBA922', '#3971ED', '#A36AC7', '#3971ED', '#c5c8c6', '#969896', '#CC342B', '#198844', '#FBA922', '#3971ED', '#A36AC7', '#3971ED', '#ffffff']"
+        dset palette "['#1d1f21', '#cc342b', '#198844', '#fba922', '#3971ed', '#a36ac7', '#3971ed', '#c5c8c6', '#969896', '#cc342b', '#198844', '#fba922', '#3971ed', '#a36ac7', '#3971ed', '#ffffff']"
         dset background-color "'#1d1f21'"
         dset foreground-color "'#c5c8c6'"
         dset bold-color "'#c5c8c6'"
@@ -115,7 +116,7 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#1d1f21:#CC342B:#198844:#FBA922:#3971ED:#A36AC7:#3971ED:#c5c8c6:#969896:#CC342B:#198844:#FBA922:#3971ED:#A36AC7:#3971ED:#ffffff"
+gset string palette "#1d1f21:#cc342b:#198844:#fba922:#3971ed:#a36ac7:#3971ed:#c5c8c6:#969896:#cc342b:#198844:#fba922:#3971ed:#a36ac7:#3971ed:#ffffff"
 gset string background_color "#1d1f21"
 gset string foreground_color "#c5c8c6"
 gset string bold_color "#c5c8c6"

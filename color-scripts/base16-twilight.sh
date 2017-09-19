@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Twilight - Gnome Terminal color scheme install script
 # David Hart (https://github.com/hartbit)
 

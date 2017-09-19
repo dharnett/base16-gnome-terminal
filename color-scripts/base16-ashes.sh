@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Ashes - Gnome Terminal color scheme install script
 # Jannik Siebert (https://github.com/janniks)
 
@@ -62,14 +63,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#1C2023', '#C7AE95', '#95C7AE', '#AEC795', '#AE95C7', '#C795AE', '#95AEC7', '#C7CCD1', '#747C84', '#C7C795', '#393F45', '#565E65', '#ADB3BA', '#DFE2E5', '#C79595', '#F3F4F5']"
-        dset background-color "'#1C2023'"
-        dset foreground-color "'#C7CCD1'"
-        dset bold-color "'#C7CCD1'"
+        dset palette "['#1c2023', '#c7ae95', '#95c7ae', '#aec795', '#ae95c7', '#c795ae', '#95aec7', '#c7ccd1', '#747c84', '#c7c795', '#393f45', '#565e65', '#adb3ba', '#dfe2e5', '#c79595', '#f3f4f5']"
+        dset background-color "'#1c2023'"
+        dset foreground-color "'#c7ccd1'"
+        dset bold-color "'#c7ccd1'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#C7CCD1'"
-        dset cursor-foreground-color "'#1C2023'"
+        dset cursor-background-color "'#c7ccd1'"
+        dset cursor-foreground-color "'#1c2023'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,15 +116,15 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#1C2023:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#C7CCD1:#747C84:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#F3F4F5"
-gset string palette "['#1C2023', '#C7AE95', '#95C7AE', '#AEC795', '#AE95C7', '#C795AE', '#95AEC7', '#C7CCD1', '#747C84', '#C7C795', '#393F45', '#565E65', '#ADB3BA', '#DFE2E5', '#C79595', '#F3F4F5']"
-gset string background_color "#1C2023"
-gset string foreground_color "#C7CCD1"
-gset string bold_color "#C7CCD1"
+gset string palette "#1c2023:#c7ae95:#95c7ae:#aec795:#ae95c7:#c795ae:#95aec7:#c7ccd1:#747c84:#c7ae95:#95c7ae:#aec795:#ae95c7:#c795ae:#95aec7:#f3f4f5"
+gset string palette "['#1c2023', '#c7ae95', '#95c7ae', '#aec795', '#ae95c7', '#c795ae', '#95aec7', '#c7ccd1', '#747c84', '#c7c795', '#393f45', '#565e65', '#adb3ba', '#dfe2e5', '#c79595', '#f3f4f5']"
+gset string background_color "#1c2023"
+gset string foreground_color "#c7ccd1"
+gset string bold_color "#c7ccd1"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#C7CCD1'"
-gset string cursor-foreground-color "'#1C2023'"
+gset string cursor-background-color "'#c7ccd1'"
+gset string cursor-foreground-color "'#1c2023'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

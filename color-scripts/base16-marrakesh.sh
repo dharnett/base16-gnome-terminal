@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Marrakesh - Gnome Terminal color scheme install script
 # Alexandre Gavioli (http://github.com/Alexx2/)
 

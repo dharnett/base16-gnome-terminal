@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 3024 - Gnome Terminal color scheme install script
 # Jan T. Sott (http://github.com/idleberg)
 

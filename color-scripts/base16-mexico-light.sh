@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Mexico Light - Gnome Terminal color scheme install script
 # Sheldon Johnson
 

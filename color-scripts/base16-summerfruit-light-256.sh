@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Summerfruit Light - Gnome Terminal color scheme install script
 # Christopher Corley (http://christop.club/)
 
@@ -62,14 +63,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#FFFFFF', '#FF0086', '#00C918', '#ABA800', '#3777E6', '#AD00A1', '#1FAAAA', '#101010', '#B0B0B0', '#FF0086', '#00C918', '#ABA800', '#3777E6', '#AD00A1', '#1FAAAA', '#202020']"
-        dset background-color "'#FFFFFF'"
+        dset palette "['#ffffff', '#ff0086', '#00c918', '#aba800', '#3777e6', '#ad00a1', '#1faaaa', '#101010', '#b0b0b0', '#ff0086', '#00c918', '#aba800', '#3777e6', '#ad00a1', '#1faaaa', '#202020']"
+        dset background-color "'#ffffff'"
         dset foreground-color "'#101010'"
         dset bold-color "'#101010'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
         dset cursor-background-color "'#101010'"
-        dset cursor-foreground-color "'#FFFFFF'"
+        dset cursor-foreground-color "'#ffffff'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,14 +116,14 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#FFFFFF:#FF0086:#00C918:#ABA800:#3777E6:#AD00A1:#1FAAAA:#101010:#B0B0B0:#FF0086:#00C918:#ABA800:#3777E6:#AD00A1:#1FAAAA:#202020"
-gset string background_color "#FFFFFF"
+gset string palette "#ffffff:#ff0086:#00c918:#aba800:#3777e6:#ad00a1:#1faaaa:#101010:#b0b0b0:#ff0086:#00c918:#aba800:#3777e6:#ad00a1:#1faaaa:#202020"
+gset string background_color "#ffffff"
 gset string foreground_color "#101010"
 gset string bold_color "#101010"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
 gset string cursor-background-color "'#101010'"
-gset string cursor-foreground-color "'#FFFFFF'"
+gset string cursor-foreground-color "'#ffffff'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

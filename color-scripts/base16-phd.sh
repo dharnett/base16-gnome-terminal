@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 PhD - Gnome Terminal color scheme install script
 # Hennig Hasemann (http://leetless.de/vim.html)
 

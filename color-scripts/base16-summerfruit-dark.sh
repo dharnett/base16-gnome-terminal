@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Summerfruit Dark - Gnome Terminal color scheme install script
 # Christopher Corley (http://christop.club/)
 
@@ -62,13 +63,13 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#151515', '#FF0086', '#00C918', '#ABA800', '#3777E6', '#AD00A1', '#1FAAAA', '#D0D0D0', '#505050', '#FD8900', '#202020', '#303030', '#B0B0B0', '#E0E0E0', '#CC6633', '#FFFFFF']"
+        dset palette "['#151515', '#ff0086', '#00c918', '#aba800', '#3777e6', '#ad00a1', '#1faaaa', '#d0d0d0', '#505050', '#fd8900', '#202020', '#303030', '#b0b0b0', '#e0e0e0', '#cc6633', '#ffffff']"
         dset background-color "'#151515'"
-        dset foreground-color "'#D0D0D0'"
-        dset bold-color "'#D0D0D0'"
+        dset foreground-color "'#d0d0d0'"
+        dset bold-color "'#d0d0d0'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#D0D0D0'"
+        dset cursor-background-color "'#d0d0d0'"
         dset cursor-foreground-color "'#151515'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
@@ -115,14 +116,14 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#151515:#FF0086:#00C918:#ABA800:#3777E6:#AD00A1:#1FAAAA:#D0D0D0:#505050:#FF0086:#00C918:#ABA800:#3777E6:#AD00A1:#1FAAAA:#FFFFFF"
-gset string palette "['#151515', '#FF0086', '#00C918', '#ABA800', '#3777E6', '#AD00A1', '#1FAAAA', '#D0D0D0', '#505050', '#FD8900', '#202020', '#303030', '#B0B0B0', '#E0E0E0', '#CC6633', '#FFFFFF']"
+gset string palette "#151515:#ff0086:#00c918:#aba800:#3777e6:#ad00a1:#1faaaa:#d0d0d0:#505050:#ff0086:#00c918:#aba800:#3777e6:#ad00a1:#1faaaa:#ffffff"
+gset string palette "['#151515', '#ff0086', '#00c918', '#aba800', '#3777e6', '#ad00a1', '#1faaaa', '#d0d0d0', '#505050', '#fd8900', '#202020', '#303030', '#b0b0b0', '#e0e0e0', '#cc6633', '#ffffff']"
 gset string background_color "#151515"
-gset string foreground_color "#D0D0D0"
-gset string bold_color "#D0D0D0"
+gset string foreground_color "#d0d0d0"
+gset string bold_color "#d0d0d0"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#D0D0D0'"
+gset string cursor-background-color "'#d0d0d0'"
 gset string cursor-foreground-color "'#151515'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"

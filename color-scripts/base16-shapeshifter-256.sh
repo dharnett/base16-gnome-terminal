@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Shapeshifter - Gnome Terminal color scheme install script
 # Tyler Benziger (http://tybenz.com)
 

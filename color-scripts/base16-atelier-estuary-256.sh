@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Atelier Estuary - Gnome Terminal color scheme install script
 # Bram de Haan (http://atelierbramdehaan.nl)
 

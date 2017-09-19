@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Grayscale Light - Gnome Terminal color scheme install script
 # Alexandre Gavioli (https://github.com/Alexx2/)
 

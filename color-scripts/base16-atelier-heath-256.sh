@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Atelier Heath - Gnome Terminal color scheme install script
 # Bram de Haan (http://atelierbramdehaan.nl)
 
@@ -62,14 +63,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#f7f3f7', '#ca402b', '#918b3b', '#bb8a35', '#516aec', '#7b59c0', '#159393', '#695d69', '#9e8f9e', '#ca402b', '#918b3b', '#bb8a35', '#516aec', '#7b59c0', '#159393', '#1b181b']"
-        dset background-color "'#f7f3f7'"
-        dset foreground-color "'#695d69'"
-        dset bold-color "'#695d69'"
+        dset palette "['#1b181b', '#ca402b', '#918b3b', '#bb8a35', '#516aec', '#7b59c0', '#159393', '#ab9bab', '#776977', '#ca402b', '#918b3b', '#bb8a35', '#516aec', '#7b59c0', '#159393', '#f7f3f7']"
+        dset background-color "'#1b181b'"
+        dset foreground-color "'#ab9bab'"
+        dset bold-color "'#ab9bab'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#695d69'"
-        dset cursor-foreground-color "'#f7f3f7'"
+        dset cursor-background-color "'#ab9bab'"
+        dset cursor-foreground-color "'#1b181b'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,14 +116,14 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#f7f3f7:#ca402b:#918b3b:#bb8a35:#516aec:#7b59c0:#159393:#695d69:#9e8f9e:#ca402b:#918b3b:#bb8a35:#516aec:#7b59c0:#159393:#1b181b"
-gset string background_color "#f7f3f7"
-gset string foreground_color "#695d69"
-gset string bold_color "#695d69"
+gset string palette "#1b181b:#ca402b:#918b3b:#bb8a35:#516aec:#7b59c0:#159393:#ab9bab:#776977:#ca402b:#918b3b:#bb8a35:#516aec:#7b59c0:#159393:#f7f3f7"
+gset string background_color "#1b181b"
+gset string foreground_color "#ab9bab"
+gset string bold_color "#ab9bab"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#695d69'"
-gset string cursor-foreground-color "'#f7f3f7'"
+gset string cursor-background-color "'#ab9bab'"
+gset string cursor-foreground-color "'#1b181b'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

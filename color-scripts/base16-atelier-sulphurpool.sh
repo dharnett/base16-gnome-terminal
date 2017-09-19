@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Atelier Sulphurpool - Gnome Terminal color scheme install script
 # Bram de Haan (http://atelierbramdehaan.nl)
 
@@ -62,14 +63,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#f5f7ff', '#c94922', '#ac9739', '#c08b30', '#3d8fd1', '#6679cc', '#22a2c9', '#5e6687', '#898ea4', '#c76b29', '#dfe2f1', '#979db4', '#6b7394', '#293256', '#9c637a', '#202746']"
-        dset background-color "'#f5f7ff'"
-        dset foreground-color "'#5e6687'"
-        dset bold-color "'#5e6687'"
+        dset palette "['#202746', '#c94922', '#ac9739', '#c08b30', '#3d8fd1', '#6679cc', '#22a2c9', '#979db4', '#6b7394', '#c76b29', '#293256', '#5e6687', '#898ea4', '#dfe2f1', '#9c637a', '#f5f7ff']"
+        dset background-color "'#202746'"
+        dset foreground-color "'#979db4'"
+        dset bold-color "'#979db4'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#5e6687'"
-        dset cursor-foreground-color "'#f5f7ff'"
+        dset cursor-background-color "'#979db4'"
+        dset cursor-foreground-color "'#202746'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,15 +116,15 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#f5f7ff:#c94922:#ac9739:#c08b30:#3d8fd1:#6679cc:#22a2c9:#5e6687:#898ea4:#c94922:#ac9739:#c08b30:#3d8fd1:#6679cc:#22a2c9:#202746"
-gset string palette "['#f5f7ff', '#c94922', '#ac9739', '#c08b30', '#3d8fd1', '#6679cc', '#22a2c9', '#5e6687', '#898ea4', '#c76b29', '#dfe2f1', '#979db4', '#6b7394', '#293256', '#9c637a', '#202746']"
-gset string background_color "#f5f7ff"
-gset string foreground_color "#5e6687"
-gset string bold_color "#5e6687"
+gset string palette "#202746:#c94922:#ac9739:#c08b30:#3d8fd1:#6679cc:#22a2c9:#979db4:#6b7394:#c94922:#ac9739:#c08b30:#3d8fd1:#6679cc:#22a2c9:#f5f7ff"
+gset string palette "['#202746', '#c94922', '#ac9739', '#c08b30', '#3d8fd1', '#6679cc', '#22a2c9', '#979db4', '#6b7394', '#c76b29', '#293256', '#5e6687', '#898ea4', '#dfe2f1', '#9c637a', '#f5f7ff']"
+gset string background_color "#202746"
+gset string foreground_color "#979db4"
+gset string bold_color "#979db4"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#5e6687'"
-gset string cursor-foreground-color "'#f5f7ff'"
+gset string cursor-background-color "'#979db4'"
+gset string cursor-foreground-color "'#202746'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

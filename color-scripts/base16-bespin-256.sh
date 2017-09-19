@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Bespin - Gnome Terminal color scheme install script
 # Jan T. Sott
 

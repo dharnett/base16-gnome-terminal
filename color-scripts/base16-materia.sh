@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Materia - Gnome Terminal color scheme install script
 # Defman21
 
@@ -62,13 +63,13 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#263238', '#EC5F67', '#8BD649', '#FFCC00', '#89DDFF', '#82AAFF', '#80CBC4', '#CDD3DE', '#707880', '#EA9560', '#2C393F', '#37474F', '#C9CCD3', '#D5DBE5', '#EC5F67', '#FFFFFF']"
+        dset palette "['#263238', '#ec5f67', '#8bd649', '#ffcc00', '#89ddff', '#82aaff', '#80cbc4', '#cdd3de', '#707880', '#ea9560', '#2c393f', '#37474f', '#c9ccd3', '#d5dbe5', '#ec5f67', '#ffffff']"
         dset background-color "'#263238'"
-        dset foreground-color "'#CDD3DE'"
-        dset bold-color "'#CDD3DE'"
+        dset foreground-color "'#cdd3de'"
+        dset bold-color "'#cdd3de'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#CDD3DE'"
+        dset cursor-background-color "'#cdd3de'"
         dset cursor-foreground-color "'#263238'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
@@ -115,14 +116,14 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#263238:#EC5F67:#8BD649:#FFCC00:#89DDFF:#82AAFF:#80CBC4:#CDD3DE:#707880:#EC5F67:#8BD649:#FFCC00:#89DDFF:#82AAFF:#80CBC4:#FFFFFF"
-gset string palette "['#263238', '#EC5F67', '#8BD649', '#FFCC00', '#89DDFF', '#82AAFF', '#80CBC4', '#CDD3DE', '#707880', '#EA9560', '#2C393F', '#37474F', '#C9CCD3', '#D5DBE5', '#EC5F67', '#FFFFFF']"
+gset string palette "#263238:#ec5f67:#8bd649:#ffcc00:#89ddff:#82aaff:#80cbc4:#cdd3de:#707880:#ec5f67:#8bd649:#ffcc00:#89ddff:#82aaff:#80cbc4:#ffffff"
+gset string palette "['#263238', '#ec5f67', '#8bd649', '#ffcc00', '#89ddff', '#82aaff', '#80cbc4', '#cdd3de', '#707880', '#ea9560', '#2c393f', '#37474f', '#c9ccd3', '#d5dbe5', '#ec5f67', '#ffffff']"
 gset string background_color "#263238"
-gset string foreground_color "#CDD3DE"
-gset string bold_color "#CDD3DE"
+gset string foreground_color "#cdd3de"
+gset string bold_color "#cdd3de"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#CDD3DE'"
+gset string cursor-background-color "'#cdd3de'"
 gset string cursor-foreground-color "'#263238'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"

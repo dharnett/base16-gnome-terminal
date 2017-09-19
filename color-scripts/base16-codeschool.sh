@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Codeschool - Gnome Terminal color scheme install script
 # brettof86
 

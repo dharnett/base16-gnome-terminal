@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Brewer - Gnome Terminal color scheme install script
 # Timothée Poisot (http://github.com/tpoisot)
 

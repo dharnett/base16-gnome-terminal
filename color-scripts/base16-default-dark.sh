@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Default Dark - Gnome Terminal color scheme install script
 # Chris Kempson (http://chriskempson.com)
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Base16 Mocha - Gnome Terminal color scheme install script
 # Chris Kempson (http://chriskempson.com)
 
@@ -62,14 +63,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#3B3228', '#cb6077', '#beb55b', '#f4bc87', '#8ab3b5', '#a89bb9', '#7bbda4', '#d0c8c6', '#7e705a', '#d28b71', '#534636', '#645240', '#b8afad', '#e9e1dd', '#bb9584', '#f5eeeb']"
-        dset background-color "'#3B3228'"
+        dset palette "['#3b3228', '#cb6077', '#beb55b', '#f4bc87', '#8ab3b5', '#a89bb9', '#7bbda4', '#d0c8c6', '#7e705a', '#d28b71', '#534636', '#645240', '#b8afad', '#e9e1dd', '#bb9584', '#f5eeeb']"
+        dset background-color "'#3b3228'"
         dset foreground-color "'#d0c8c6'"
         dset bold-color "'#d0c8c6'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
         dset cursor-background-color "'#d0c8c6'"
-        dset cursor-foreground-color "'#3B3228'"
+        dset cursor-foreground-color "'#3b3228'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,15 +116,15 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#3B3228:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#d0c8c6:#7e705a:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#f5eeeb"
-gset string palette "['#3B3228', '#cb6077', '#beb55b', '#f4bc87', '#8ab3b5', '#a89bb9', '#7bbda4', '#d0c8c6', '#7e705a', '#d28b71', '#534636', '#645240', '#b8afad', '#e9e1dd', '#bb9584', '#f5eeeb']"
-gset string background_color "#3B3228"
+gset string palette "#3b3228:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#d0c8c6:#7e705a:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#f5eeeb"
+gset string palette "['#3b3228', '#cb6077', '#beb55b', '#f4bc87', '#8ab3b5', '#a89bb9', '#7bbda4', '#d0c8c6', '#7e705a', '#d28b71', '#534636', '#645240', '#b8afad', '#e9e1dd', '#bb9584', '#f5eeeb']"
+gset string background_color "#3b3228"
 gset string foreground_color "#d0c8c6"
 gset string bold_color "#d0c8c6"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
 gset string cursor-background-color "'#d0c8c6'"
-gset string cursor-foreground-color "'#3B3228'"
+gset string cursor-foreground-color "'#3b3228'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Seti UI - Gnome Terminal color scheme install script
 # 
 
@@ -63,7 +62,7 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#151718', '#cd3f45', '#9fca56', '#e6cd69', '#55b5db', '#a074c4', '#55dbbe', '#d6d6d6', '#41535b', '#db7b55', '#8ec43d', '#3b758c', '#43a5d5', '#eeeeee', '#8a553f', '#ffffff']"
+        dset palette "['#151718', '#cd3f45', '#9fca56', '#e6cd69', '#55b5db', '#a074c4', '#55dbbe', '#d6d6d6', '#41535b', '#db7b55', '#282a2b', '#3b758c', '#43a5d5', '#eeeeee', '#8a553f', '#ffffff']"
         dset background-color "'#151718'"
         dset foreground-color "'#d6d6d6'"
         dset bold-color "'#d6d6d6'"
@@ -117,7 +116,7 @@ glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
 gset string palette "#151718:#cd3f45:#9fca56:#e6cd69:#55b5db:#a074c4:#55dbbe:#d6d6d6:#41535b:#cd3f45:#9fca56:#e6cd69:#55b5db:#a074c4:#55dbbe:#ffffff"
-gset string palette "['#151718', '#cd3f45', '#9fca56', '#e6cd69', '#55b5db', '#a074c4', '#55dbbe', '#d6d6d6', '#41535b', '#db7b55', '#8ec43d', '#3b758c', '#43a5d5', '#eeeeee', '#8a553f', '#ffffff']"
+gset string palette "['#151718', '#cd3f45', '#9fca56', '#e6cd69', '#55b5db', '#a074c4', '#55dbbe', '#d6d6d6', '#41535b', '#db7b55', '#282a2b', '#3b758c', '#43a5d5', '#eeeeee', '#8a553f', '#ffffff']"
 gset string background_color "#151718"
 gset string foreground_color "#d6d6d6"
 gset string bold_color "#d6d6d6"

@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Darktooth - Gnome Terminal color scheme install script
 # Jason Milkins (https://github.com/jasonm23)
 

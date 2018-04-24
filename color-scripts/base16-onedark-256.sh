@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 OneDark - Gnome Terminal color scheme install script
 # Lalit Magant (http://github.com/tilal6991)
 

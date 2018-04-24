@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Circus - Gnome Terminal color scheme install script
 # Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 

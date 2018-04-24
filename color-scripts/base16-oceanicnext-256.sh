@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 OceanicNext - Gnome Terminal color scheme install script
 # https://github.com/voronianski/oceanic-next-color-scheme
 

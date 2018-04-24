@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Gruvbox light, soft - Gnome Terminal color scheme install script
 # Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 

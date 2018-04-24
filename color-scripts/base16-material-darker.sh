@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Material Darker - Gnome Terminal color scheme install script
 # Nate Peterson
 

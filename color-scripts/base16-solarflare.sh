@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Solar Flare - Gnome Terminal color scheme install script
 # Chuck Harmston (https://chuck.harmston.ch)
 

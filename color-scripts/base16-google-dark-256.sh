@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Google Dark - Gnome Terminal color scheme install script
 # Seth Wright (http://sethawright.com)
 

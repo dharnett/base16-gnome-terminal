@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Material Palenight - Gnome Terminal color scheme install script
 # Nate Peterson
 

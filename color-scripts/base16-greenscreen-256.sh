@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Green Screen - Gnome Terminal color scheme install script
 # Chris Kempson (http://chriskempson.com)
 

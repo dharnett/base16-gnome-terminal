@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Spacemacs - Gnome Terminal color scheme install script
 # Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
 

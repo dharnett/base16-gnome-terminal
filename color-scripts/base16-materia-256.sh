@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Materia - Gnome Terminal color scheme install script
 # Defman21
 

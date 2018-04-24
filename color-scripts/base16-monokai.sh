@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Monokai - Gnome Terminal color scheme install script
 # Wimer Hazenberg (http://www.monokai.nl)
 

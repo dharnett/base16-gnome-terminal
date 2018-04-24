@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Macintosh - Gnome Terminal color scheme install script
 # Rebecca Bettencourt (http://www.kreativekorp.com)
 

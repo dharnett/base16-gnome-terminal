@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 London Tube - Gnome Terminal color scheme install script
 # Jan T. Sott
 

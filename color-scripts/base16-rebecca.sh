@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Rebecca - Gnome Terminal color scheme install script
 # Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
 

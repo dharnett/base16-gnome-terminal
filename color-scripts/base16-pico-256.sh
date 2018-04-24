@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Pico - Gnome Terminal color scheme install script
 # PICO-8 (http://www.lexaloffle.com/pico-8.php)
 

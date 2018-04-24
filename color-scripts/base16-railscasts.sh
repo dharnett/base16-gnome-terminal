@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Railscasts - Gnome Terminal color scheme install script
 # Ryan Bates (http://railscasts.com)
 

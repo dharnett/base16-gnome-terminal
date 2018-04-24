@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Woodland - Gnome Terminal color scheme install script
 # Jay Cornwall (https://jcornwall.com)
 

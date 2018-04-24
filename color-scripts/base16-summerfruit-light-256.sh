@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Summerfruit Light - Gnome Terminal color scheme install script
 # Christopher Corley (http://christop.club/)
 

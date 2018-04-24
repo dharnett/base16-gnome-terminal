@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Atelier Plateau Light - Gnome Terminal color scheme install script
 # Bram de Haan (http://atelierbramdehaan.nl)
 

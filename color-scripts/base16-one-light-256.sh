@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 One Light - Gnome Terminal color scheme install script
 # Daniel Pfeifer (http://github.com/purpleKarrot)
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Nord - Gnome Terminal color scheme install script
 # arcticicestudio
 

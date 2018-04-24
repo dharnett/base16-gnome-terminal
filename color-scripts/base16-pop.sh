@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Pop - Gnome Terminal color scheme install script
 # Chris Kempson (http://chriskempson.com)
 

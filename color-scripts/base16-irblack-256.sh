@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 IR Black - Gnome Terminal color scheme install script
 # Timothée Poisot (http://timotheepoisot.fr)
 

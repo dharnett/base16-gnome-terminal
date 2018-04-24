@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Mellow Purple - Gnome Terminal color scheme install script
 # gidsi
 

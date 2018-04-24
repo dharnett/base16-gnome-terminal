@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-
 # Base16 Codeschool - Gnome Terminal color scheme install script
-# brettof86
+# blockloop
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Codeschool"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-codeschool"

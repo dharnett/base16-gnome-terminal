@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Brush Trees - Gnome Terminal color scheme install script
 # Abraham White &lt;abelincoln.white@gmail.com&gt;
 

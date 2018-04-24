@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Github - Gnome Terminal color scheme install script
 # Defman21
 

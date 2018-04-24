@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Embers - Gnome Terminal color scheme install script
 # Jannik Siebert (https://github.com/janniks)
 

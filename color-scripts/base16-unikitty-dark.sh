@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Unikitty Dark - Gnome Terminal color scheme install script
 # Josh W Lewis (@joshwlewis)
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Base16 Classic Dark - Gnome Terminal color scheme install script
 # Jason Heeris (http://heeris.id.au)
 

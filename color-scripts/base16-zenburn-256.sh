@@ -62,14 +62,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#3f3f3f', '#dca3a3', '#5f7f5f', '#e0cf9f', '#7cb8bb', '#dc8cc3', '#93e0e3', '#dcdccc', '#4f4f4f', '#dca3a3', '#5f7f5f', '#e0cf9f', '#7cb8bb', '#dc8cc3', '#93e0e3', '#ffffff']"
-        dset background-color "'#3f3f3f'"
+        dset palette "['#383838', '#dca3a3', '#5f7f5f', '#e0cf9f', '#7cb8bb', '#dc8cc3', '#93e0e3', '#dcdccc', '#6f6f6f', '#dca3a3', '#5f7f5f', '#e0cf9f', '#7cb8bb', '#dc8cc3', '#93e0e3', '#ffffff']"
+        dset background-color "'#383838'"
         dset foreground-color "'#dcdccc'"
         dset bold-color "'#dcdccc'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
         dset cursor-background-color "'#dcdccc'"
-        dset cursor-foreground-color "'#3f3f3f'"
+        dset cursor-foreground-color "'#383838'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,14 +115,14 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#3f3f3f:#dca3a3:#5f7f5f:#e0cf9f:#7cb8bb:#dc8cc3:#93e0e3:#dcdccc:#4f4f4f:#dca3a3:#5f7f5f:#e0cf9f:#7cb8bb:#dc8cc3:#93e0e3:#ffffff"
-gset string background_color "#3f3f3f"
+gset string palette "#383838:#dca3a3:#5f7f5f:#e0cf9f:#7cb8bb:#dc8cc3:#93e0e3:#dcdccc:#6f6f6f:#dca3a3:#5f7f5f:#e0cf9f:#7cb8bb:#dc8cc3:#93e0e3:#ffffff"
+gset string background_color "#383838"
 gset string foreground_color "#dcdccc"
 gset string bold_color "#dcdccc"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
 gset string cursor-background-color "'#dcdccc'"
-gset string cursor-foreground-color "'#3f3f3f'"
+gset string cursor-foreground-color "'#383838'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

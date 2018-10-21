@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Solarized Dark - Gnome Terminal color scheme install script
-# Ethan Schoonover (http://ethanschoonover.com/solarized)
+# Ethan Schoonover (modified by aramisgithub)
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Solarized Dark"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-solarized-dark"

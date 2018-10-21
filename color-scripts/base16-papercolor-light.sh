@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 Solarized Light - Gnome Terminal color scheme install script
-# Ethan Schoonover (modified by aramisgithub)
+# Base16 PaperColor Light - Gnome Terminal color scheme install script
+# Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Solarized Light 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-solarized-light-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 PaperColor Light"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-papercolor-light"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
@@ -62,14 +62,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#fdf6e3', '#dc322f', '#859900', '#b58900', '#268bd2', '#6c71c4', '#2aa198', '#586e75', '#839496', '#dc322f', '#859900', '#b58900', '#268bd2', '#6c71c4', '#2aa198', '#002b36']"
-        dset background-color "'#fdf6e3'"
-        dset foreground-color "'#586e75'"
-        dset bold-color "'#586e75'"
+        dset palette "['#eeeeee', '#bcbcbc', '#8700af', '#d70087', '#d75f00', '#005faf', '#d75f00', '#878787', '#5f8700', '#d70000', '#af0000', '#008700', '#0087af', '#005f87', '#005f87', '#444444']"
+        dset background-color "'#eeeeee'"
+        dset foreground-color "'#878787'"
+        dset bold-color "'#878787'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#586e75'"
-        dset cursor-foreground-color "'#fdf6e3'"
+        dset cursor-background-color "'#878787'"
+        dset cursor-foreground-color "'#eeeeee'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,14 +115,15 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#fdf6e3:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#586e75:#839496:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#002b36"
-gset string background_color "#fdf6e3"
-gset string foreground_color "#586e75"
-gset string bold_color "#586e75"
+gset string palette "#eeeeee:#bcbcbc:#8700af:#d70087:#d75f00:#005faf:#d75f00:#878787:#5f8700:#bcbcbc:#8700af:#d70087:#d75f00:#005faf:#d75f00:#444444"
+gset string palette "['#eeeeee', '#bcbcbc', '#8700af', '#d70087', '#d75f00', '#005faf', '#d75f00', '#878787', '#5f8700', '#d70000', '#af0000', '#008700', '#0087af', '#005f87', '#005f87', '#444444']"
+gset string background_color "#eeeeee"
+gset string foreground_color "#878787"
+gset string bold_color "#878787"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#586e75'"
-gset string cursor-foreground-color "'#fdf6e3'"
+gset string cursor-background-color "'#878787'"
+gset string cursor-foreground-color "'#eeeeee'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

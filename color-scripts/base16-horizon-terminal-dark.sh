@@ -2,8 +2,8 @@
 # Base16 Horizon Dark - Gnome Terminal color scheme install script
 # Michaël Ball (http://github.com/michael-ball/)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Horizon Dark 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-horizon-dark-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Horizon Dark"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-horizon-terminal-dark"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
@@ -62,7 +62,7 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#1c1e26', '#e93c58', '#efaf8e', '#efb993', '#df5273', '#b072d1', '#24a8b4', '#cbced0', '#6f6f70', '#e93c58', '#efaf8e', '#efb993', '#df5273', '#b072d1', '#24a8b4', '#e3e6ee']"
+        dset palette "['#1c1e26', '#e95678', '#29d398', '#fac29a', '#26bbd9', '#ee64ac', '#59e1e3', '#cbced0', '#6f6f70', '#fab795', '#232530', '#2e303e', '#9da0a2', '#dcdfe4', '#f09383', '#e3e6ee']"
         dset background-color "'#1c1e26'"
         dset foreground-color "'#cbced0'"
         dset bold-color "'#cbced0'"
@@ -115,7 +115,8 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#1c1e26:#e93c58:#efaf8e:#efb993:#df5273:#b072d1:#24a8b4:#cbced0:#6f6f70:#e93c58:#efaf8e:#efb993:#df5273:#b072d1:#24a8b4:#e3e6ee"
+gset string palette "#1c1e26:#e95678:#29d398:#fac29a:#26bbd9:#ee64ac:#59e1e3:#cbced0:#6f6f70:#e95678:#29d398:#fac29a:#26bbd9:#ee64ac:#59e1e3:#e3e6ee"
+gset string palette "['#1c1e26', '#e95678', '#29d398', '#fac29a', '#26bbd9', '#ee64ac', '#59e1e3', '#cbced0', '#6f6f70', '#fab795', '#232530', '#2e303e', '#9da0a2', '#dcdfe4', '#f09383', '#e3e6ee']"
 gset string background_color "#1c1e26"
 gset string foreground_color "#cbced0"
 gset string bold_color "#cbced0"

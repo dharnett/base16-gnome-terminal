@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 Horizon Dark - Gnome Terminal color scheme install script
-# Michaël Ball (http://github.com/michael-ball/)
+# Base16 Nova - Gnome Terminal color scheme install script
+# George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Horizon Dark 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-horizon-dark-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Nova 256"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-nova-256"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
@@ -62,14 +62,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#1c1e26', '#e93c58', '#efaf8e', '#efb993', '#df5273', '#b072d1', '#24a8b4', '#cbced0', '#6f6f70', '#e93c58', '#efaf8e', '#efb993', '#df5273', '#b072d1', '#24a8b4', '#e3e6ee']"
-        dset background-color "'#1c1e26'"
-        dset foreground-color "'#cbced0'"
-        dset bold-color "'#cbced0'"
+        dset palette "['#3c4c55', '#83afe5', '#7fc1ca', '#a8ce93', '#83afe5', '#9a93e1', '#f2c38f', '#c5d4dd', '#899ba6', '#83afe5', '#7fc1ca', '#a8ce93', '#83afe5', '#9a93e1', '#f2c38f', '#556873']"
+        dset background-color "'#3c4c55'"
+        dset foreground-color "'#c5d4dd'"
+        dset bold-color "'#c5d4dd'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#cbced0'"
-        dset cursor-foreground-color "'#1c1e26'"
+        dset cursor-background-color "'#c5d4dd'"
+        dset cursor-foreground-color "'#3c4c55'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,14 +115,14 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#1c1e26:#e93c58:#efaf8e:#efb993:#df5273:#b072d1:#24a8b4:#cbced0:#6f6f70:#e93c58:#efaf8e:#efb993:#df5273:#b072d1:#24a8b4:#e3e6ee"
-gset string background_color "#1c1e26"
-gset string foreground_color "#cbced0"
-gset string bold_color "#cbced0"
+gset string palette "#3c4c55:#83afe5:#7fc1ca:#a8ce93:#83afe5:#9a93e1:#f2c38f:#c5d4dd:#899ba6:#83afe5:#7fc1ca:#a8ce93:#83afe5:#9a93e1:#f2c38f:#556873"
+gset string background_color "#3c4c55"
+gset string foreground_color "#c5d4dd"
+gset string bold_color "#c5d4dd"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#cbced0'"
-gset string cursor-foreground-color "'#1c1e26'"
+gset string cursor-background-color "'#c5d4dd'"
+gset string cursor-foreground-color "'#3c4c55'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 

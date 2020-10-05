@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 Synth Midnight Terminal Dark - Gnome Terminal color scheme install script
-# Michaël Ball (http://github.com/michael-ball/)
+# Base16 Dark Violet - Gnome Terminal color scheme install script
+# ruler501 (https://github.com/ruler501/base16-darkviolet)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Synth Midnight Terminal Dark 256"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-synth-midnight-dark-256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Dark Violet"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-darkviolet"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
@@ -62,14 +62,14 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#050608', '#b53b50', '#06ea61', '#c9d364', '#03aeff', '#ea5ce2', '#42fff9', '#c1c3c4', '#474849', '#b53b50', '#06ea61', '#c9d364', '#03aeff', '#ea5ce2', '#42fff9', '#dddfe0']"
-        dset background-color "'#050608'"
-        dset foreground-color "'#c1c3c4'"
-        dset bold-color "'#c1c3c4'"
+        dset palette "['#000000', '#a82ee6', '#4595e6', '#f29df2', '#4136d9', '#7e5ce6', '#40dfff', '#b08ae6', '#593380', '#bb66cc', '#231a40', '#432d59', '#00ff00', '#9045e6', '#a886bf', '#a366ff']"
+        dset background-color "'#000000'"
+        dset foreground-color "'#b08ae6'"
+        dset bold-color "'#b08ae6'"
         dset bold-color-same-as-fg "true"
         dset cursor-colors-set "true"
-        dset cursor-background-color "'#c1c3c4'"
-        dset cursor-foreground-color "'#050608'"
+        dset cursor-background-color "'#b08ae6'"
+        dset cursor-foreground-color "'#000000'"
         dset use-theme-colors "false"
         dset use-theme-background "false"
 
@@ -115,14 +115,15 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#050608:#b53b50:#06ea61:#c9d364:#03aeff:#ea5ce2:#42fff9:#c1c3c4:#474849:#b53b50:#06ea61:#c9d364:#03aeff:#ea5ce2:#42fff9:#dddfe0"
-gset string background_color "#050608"
-gset string foreground_color "#c1c3c4"
-gset string bold_color "#c1c3c4"
+gset string palette "#000000:#a82ee6:#4595e6:#f29df2:#4136d9:#7e5ce6:#40dfff:#b08ae6:#593380:#a82ee6:#4595e6:#f29df2:#4136d9:#7e5ce6:#40dfff:#a366ff"
+gset string palette "['#000000', '#a82ee6', '#4595e6', '#f29df2', '#4136d9', '#7e5ce6', '#40dfff', '#b08ae6', '#593380', '#bb66cc', '#231a40', '#432d59', '#00ff00', '#9045e6', '#a886bf', '#a366ff']"
+gset string background_color "#000000"
+gset string foreground_color "#b08ae6"
+gset string bold_color "#b08ae6"
 gset bool   bold_color_same_as_fg "true"
 gset bool   cursor-colors-set "true"
-gset string cursor-background-color "'#c1c3c4'"
-gset string cursor-foreground-color "'#050608'"
+gset string cursor-background-color "'#b08ae6'"
+gset string cursor-foreground-color "'#000000'"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
 
